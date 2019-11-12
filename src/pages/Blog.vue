@@ -10,6 +10,7 @@
                     #{{tag}}
                 </span>
             </div>
+            <g-link :to="edge.node.path">Read Post</g-link>
             <!-- <div v-html="edge.node.content" /> -->
         </article>
     </Layout>
@@ -26,6 +27,7 @@
                  date (format: "MMMM Do, YYYY")
                  tags
                  timeToRead
+                 path
              }
          }
      }
