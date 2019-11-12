@@ -1,3 +1,10 @@
+---
+title: First Post
+excerpt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+date: 2019-11-12
+tags: ['apparel', 'shoes']
+---
+
 ## First Post
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.

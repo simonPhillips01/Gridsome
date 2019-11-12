@@ -1,3 +1,10 @@
+---
+title: Second Post
+excerpt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
+date: 2019-11-12
+tags: ['shoes', 'jackets']
+---
+
 ## Second Post
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.Ut enim d minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip
