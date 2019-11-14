@@ -7,9 +7,9 @@
             <p>{{edge.node.excerpt}}</p>
             <p>Posted {{edge.node.date}} · {{edge.node.timeToRead}} min read</p>
             <div>
-                <span style="padding-right: .25em" v-for="tag in edge.node.tags" :key="tag">
-                    #{{tag}}
-                </span>
+                <g-link style="padding-right: .25em" v-for="tag in edge.node.tags" :to="tag.path" :key="tag.id">
+                    #{{tag.id}}
+                </g-link>
             </div>
             <g-link :to="edge.node.path">Read Post</g-link>
             <!-- <div v-html="edge.node.content" /> -->
@@ -26,7 +26,10 @@
                  title
                  excerpt
                  date (format: "MMMM Do, YYYY")
-                 tags
+                 tags {
+                     id
+                     path
+                 }
                  timeToRead
                  path
                  cover_image (width: 1000, height: 300, quality: 100, blur: 10)
