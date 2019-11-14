@@ -3,6 +3,7 @@ title: Second Post
 excerpt: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua."
 date: 2019-11-12
 tags: ['shoes', 'jackets']
+cover_image: './images/bg-2.jpg'
 ---
 
 ## Second Post

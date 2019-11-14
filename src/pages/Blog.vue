@@ -1,7 +1,8 @@
 <template>
     <Layout>
         <h1>Blog</h1>
-        <article v-for="edge in $static.allPost.edges" :key="edge.node.id">
+        <article v-for="edge in $static.allPost.edges" :key="edge.node.id" style="margin-bottom: 2em;">
+            <g-image :src="edge.node.cover_image" style="width: 100%" />
             <h2>{{edge.node.title}}</h2>
             <p>{{edge.node.excerpt}}</p>
             <p>Posted {{edge.node.date}} · {{edge.node.timeToRead}} min read</p>
@@ -28,6 +29,7 @@
                  tags
                  timeToRead
                  path
+                 cover_image (width: 1000, height: 300, quality: 100, blur: 10)
              }
          }
      }
